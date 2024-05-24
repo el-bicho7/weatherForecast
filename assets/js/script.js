@@ -115,7 +115,7 @@ function weathersymbol(data){
 function latNlot(city){
   const searchCity = (city).replace(" ", "");
   const key1 = '3cc847a8b34559de906860d8ac32d016';
-  const locationURL = `http://api.openweathermap.org/geo/1.0/direct?q=${searchCity}&limit=5&appid=${key1}`
+  const locationURL = `https://api.openweathermap.org/geo/1.0/direct?q=${searchCity}&limit=5&appid=${key1}`
   // Clear page to render new info
   clearPage();
   // Add city to the HTML
